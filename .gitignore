@@ -1,0 +1,37 @@
+# Python 가상환경 및 종속성
+.venv/
+venv/
+ENV/
+env/
+
+# Python 컴파일 및 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# 프로젝트 데이터 및 분석 출력물 (폴더 규칙 데이터 및 임시 CSV 제외)
+data/*
+!data/.gitkeep
+etf_data_*.csv
+*.csv
+*.xlsx
+*.json
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+
+# IDE 및 에디터 설정
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Streamlit 로컬 설정
+.streamlit/config.toml
